@@ -8,6 +8,8 @@ uvicorn apphi:myapi --reload
 
 Then open http://localhost:8000/docs
 
+![tests](https://github.com/bsumanath/hello-api/actions/workflows/tests.yml/badge.svg)
+
 
 # Iris Classifier API
 
