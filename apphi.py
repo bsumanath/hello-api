@@ -38,7 +38,8 @@ class IrisFeatures(BaseModel):
 
 @myapi.get("/")
 def home():
-    return {"message": "Iris classifier is running. Go to /docs to try it."}
+    return {"status": "ok", "message": "Welcome to the Iris Classifier API", "model": "RandomForest trained on Iris"}
+        
 
 
 @myapi.post("/add")
