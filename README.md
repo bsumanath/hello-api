@@ -40,3 +40,15 @@ Response:
 ```json
 {"species": "setosa", "confidence": 1.0, "probabilities": {"setosa": 1.0, "versicolor": 0.0, "virginica": 0.0}}
 ```
+
+## Run with Docker
+```bash
+docker build -t iris-api .
+docker run -p 8000:8000 iris-api
+```
+Open http://localhost:8000/docs
+
+
+
+
+
