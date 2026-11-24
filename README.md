@@ -10,6 +10,8 @@ Then open http://localhost:8000/docs
 
 ![tests](https://github.com/bsumanath/hello-api/actions/workflows/tests.yml/badge.svg)
 
+**🚀 Live demo:** https://iris-api-xxxx.onrender.com/docs
+*(Hosted on Render's free tier. The first request after inactivity may take ~1 minute to wake up.)*
 
 
 
