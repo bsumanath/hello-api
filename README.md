@@ -11,6 +11,23 @@ Then open http://localhost:8000/docs
 ![tests](https://github.com/bsumanath/hello-api/actions/workflows/tests.yml/badge.svg)
 
 
+
+
+---
+title: Iris Classifier API
+emoji: 🌸
+colorFrom: purple
+colorTo: blue
+sdk: docker
+app_port: 8000
+base_path: /docs
+pinned: false
+---
+
+
+
+
+
 # Iris Classifier API
 
 A machine learning API that predicts iris flower species from 4 measurements.
